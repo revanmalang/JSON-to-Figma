@@ -29,10 +29,6 @@ The plugin can parse local or JSON files from a URL link. You can populate any l
 
 ##### 📥 [figma.com/community/plugin/789839703871161985/JSON-to-Figma](https://www.figma.com/community/plugin/789839703871161985/JSON-to-Figma)
 
-### Youtube demo
-
-##### 🎥 [youtu.be/7CKYdDfLFDY](https://youtu.be/J9Hu2hNSWvE)
-
 ---
 
 ## 🚀 How to Use
