@@ -104,4 +104,4 @@ Please if you have any trubles with the plugin or ideas how I could improve the 
 
 ---
 
-### [🧑‍💻💸 Support plugin](https://www.paypal.com/paypalme/melodicsoul31)
+### [🧑‍💻💸 Support plugin](https://www.paypal.com/paypalme/mochrevano)
