@@ -71,13 +71,13 @@ The JSON structure for the file should look like an array of objects.
 [
     {
         "id": 1,
-        "name": "Shannah Judgkins",
+        "name": "Revan ID",
         "job": "Database Administrator II",
         "image": "https://robohash.org/suntautvoluptatem.jpg?size=500x500&set=set1"
     },
     {
         "id": 2,
-        "name": "Silvester Hallwell",
+        "name": "Gita Sekar",
         "job": "Data Coordiator",
         "image": "https://robohash.org/rerumautemenim.jpg?size=500x500&set=set1"
     }
@@ -104,4 +104,4 @@ Please if you have any trubles with the plugin or ideas how I could improve the 
 
 ---
 
-### [🧑‍💻💸 Support plugin](https://www.paypal.com/paypalme/pavellaptev)
+### [🧑‍💻💸 Support plugin](https://www.paypal.com/paypalme/melodicsoul31)
