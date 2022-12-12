@@ -1,0 +1,25 @@
+.wrap {
+    user-select: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: var(--l-space) var(--m-space);
+    width: 100%;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0 0 var(--m-space) 0;
+}
+
+.divider {
+    position: absolute;
+    opacity: 0.2;
+    bottom: 0;
+    height: 1px;
+    width: calc(100% - var(--m-space) * 2);
+    background: var(--clr-black);
+}

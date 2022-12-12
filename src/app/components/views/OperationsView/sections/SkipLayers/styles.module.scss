@@ -1,0 +1,13 @@
+.wrap {
+    padding-bottom: var(--m-space);
+}
+
+.btnWrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--s-space);
+    button {
+        margin-right: var(--s-space);
+        margin-bottom: var(--s-space);
+    }
+}

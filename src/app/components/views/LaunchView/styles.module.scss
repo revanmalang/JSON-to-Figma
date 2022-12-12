@@ -1,0 +1,36 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--clr-gray);
+    padding: var(--l-space);
+}
+
+.links {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--m-space);
+}
+
+.buttonsSection {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--s-space);
+
+    > :first-child {
+        margin-bottom: var(--s-space);
+    }
+}
+
+.caption {
+    margin: var(--xs-space);
+    font-family: 'inter', sans-serif;
+    user-select: none;
+    color: var(--clr-black);
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+.wrap {
+    display: flex;
+    user-select: none;
+    input[type='checkbox'] {
+        display: none;
+        + label:before {
+            content: '';
+            display: block;
+            width: 28px;
+            height: 16px;
+            position: absolute;
+            transform: translateY(-50%);
+            top: 50%;
+            left: 0;
+            border: 2px solid var(--clr-black);
+            background: transparent;
+            border-radius: 50px;
+            transition: all var(--transition-m);
+        }
+        + label:after {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            transform: translateY(-50%);
+            top: 50%;
+            left: 0;
+            border: 2px solid var(--clr-black);
+            background: white;
+            border-radius: 50px;
+            transition: all var(--transition-m);
+        }
+        &:checked + label:after {
+            left: 12px;
+        }
+        &:checked + label:before {
+            background: var(--clr-black);
+        }
+    }
+    label {
+        color: var(--clr-caption);
+        padding-top: 2px;
+        padding-left: 40px;
+        line-height: 1.3;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    }
+}
